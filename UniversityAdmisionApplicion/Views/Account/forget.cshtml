@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+}
+<h1 class="text-center mt-5">Forget</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-lg-4 col-md-8 col-sm-12">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="your email">
+                </div>
+                <div class="col-md-12 text-end">
+                    <a asp-area="" asp-controller="Account" asp-action="Sing">i remembered</a>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary">Reset password</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>
